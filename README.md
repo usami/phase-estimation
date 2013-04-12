@@ -12,6 +12,7 @@ U01; U10, U11], |u> = [u0; u1].
 > **NOTE**
 > The function pe is restricted to simulate the case that U is a 2 by 2 matrix and
 > |u> is a 2 coordinates vector.
+
 This function also takes n and epsilon as inputs. It returns phi so that the
 difference from the true value of phi and the estimate of phi is less than
 2^(-n).
